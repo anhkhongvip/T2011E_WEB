@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-image: url("../images/anh-comingsoon.jpg");
+    background-size: cover;
+}
+h1{
+    color: #74b9ff;
+    font-size: 50px;
+    line-height: 85px;
+}
+p{
+    font-size: 14px;
+    line-height: 1.5; /*   14*1.5px */
+    text-align: justify; /*căn đều*/
+    width: 800px;
+    text-transform: capitalize;
+    text-decoration: line-through; /*gachngang*/
+}

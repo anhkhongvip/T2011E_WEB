@@ -1,0 +1,178 @@
+html,body
+{
+    background-color: #fafafa;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.khung
+{
+    width: 100%;
+    background-image: url(https://demo.studiopress.com/atmosphere/wp-content/themes/atmosphere-pro/images/front-page-1.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    height: 800px;
+    position: relative;
+}
+.menu
+{
+    width: 80%;
+    margin:0 auto;
+    padding: 2% 0;
+    display: flex;
+    align-items: center;
+}
+.menu-left
+{
+    width: 25%;
+    text-align: center;
+}
+.menu-left h2
+{
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+}
+.menu-mid
+{ 
+    width: 50%;
+}
+.menu-mid ul
+{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.menu-mid ul li
+{
+    padding-right: 5%;
+}
+.menu-mid ul li a
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffffa6;
+    transition: 0.4s;
+}
+.menu-mid ul li a:hover
+{
+    color: white;
+}
+.menu-right
+{
+   width: 25%;
+   text-align: center;
+}
+.menu-right .icon
+{
+    display: flex;
+}
+.menu-right .icon i
+{
+    padding-right: 4%;
+    color: #ffffffa6;
+}
+.menu-right .icon i:last-child
+{
+    padding-left: 15%;
+    cursor: pointer;
+}
+.khung-banner
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.khung-banner h1
+{
+    line-height: 50px;
+    font-size: 50px;
+    color: #ffffffe6;
+}
+.khung-banner p
+{
+    padding: 4% 0;
+    color: #ffffffa3;
+    font-weight: 600;
+}
+.khung-banner a
+{
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 600;
+    color: #ffffffa3;
+    padding: 2% 5%;
+    border: 1px solid #ffffffa3;
+    transition: 0.4s;
+}
+.khung-banner a:hover
+{
+    background-color: white;
+    color: black;
+    font-weight: bold;  
+}
+.main
+{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.one_block
+{
+    width: 30%;
+    padding-bottom: 4%;
+}
+.one_block .block_img img
+{
+    width: 100%;
+    border-radius: 5px;
+    height: 300px;
+}
+.block_text_small 
+{
+   margin:2% 0;
+   font-weight: 600;
+   color:#00000063;
+   padding-left: 2%;
+   font-size: 13px;
+}
+.block_text_small span:last-child
+{
+  padding-left: 10%;
+}
+.one_block p
+{
+   margin-bottom: 5%;
+   padding-left: 2%;
+}
+.one_block .text1
+{
+    font-size: 19px;
+    color: black;
+    font-weight: 700;
+}
+.one_block a
+{
+    text-decoration: none;
+    color: #ff7f50c7;
+    font-size: 13px;
+    padding-left: 2%;
+}

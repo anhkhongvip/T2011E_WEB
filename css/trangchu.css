@@ -5,81 +5,20 @@
     font-family: 'Quicksand', sans-serif;
     box-sizing: border-box;
 }
-
-/* begin menu */
-.menu
+/* begin-menu */
+.navbar-brand
 {
-    width: 100%;
-    display: flex;
-    background-color: #4b4851;
-    align-items: center;
+    padding: 0 5%;
+    font-weight: 500;
+    font-size: 30px;
 }
-.menu-left
-{
-    width: 30%;
-    text-align: center;
-}
-.menu-left a
-{
+a.nav-link {
+    display: block;
+    margin: 0 6px;
     text-decoration: none;
-    font-size: 35px;
-    font-weight: 700;
-    color: #ffffffd8;
-    line-height: 50px;
+    font-weight: 500;
 }
-.menu-mid
-{
-    width: 50%;
-}
-.menu-mid ul
-{
-    display: flex;
-    list-style: none;
-    font-weight: 600;
-}
-.menu-mid ul li 
-{
-    padding-right: 5%;
-}
-.menu-mid ul li a
-{
-    font-size: 15px;
-    text-decoration: none;
-    color: #ffffffb0;
-    transition: 0.4s;
-}
-.menu-mid ul li a.trang
-{
-    color:white;
-}
-.menu-mid ul li a:hover
-{
-    color: white;
-}    
-.menu-right
-{
-    width: 20%;
-    text-align: center;
-}
-.menu-right a
-{
-    text-decoration: none;
-    color: #ffffffb0;
-    padding-right: 5%;
-    transition: 0.4s;
-    font-weight: 700;
-}
-.menu-right a:nth-child(3) i
-{
-    padding-right: 1%;
-}
-.menu-right a:hover
-{
-    color: white;
-}
-/* end menu */
-
-/* Nơi bắt đầu cần viết...... */
+/* end-menu */
 
 
 
@@ -88,10 +27,9 @@
 
 
 
-/* kết thúc */
 
 /* begin footer */
-.container
+.footer-container
 {
     width: 95%;
     margin: 0 auto;
@@ -160,5 +98,17 @@
 {
     font-weight: bold;
     color: white;
+} 
+/* end footer */ 
+
+@media only screen and (max-width: 992px)
+{
+   .menu-left
+   {
+       display: none;
+   } 
+   .navbar-brand
+   {
+       padding: 0;
+   }
 }
-/* end footer */
